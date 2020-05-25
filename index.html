@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme generator</title>
+     <link rel="stylesheet" href="meme1.css" />
+</head>
+<body>
+    <h1>Meme Generator</h1>
+    <form action="" id="memeForm">
+        <p>
+            <div id="img1">
+           <label for="">Select a Picture
+            <input type="file" id="userImg" accept="image/*" onchange="makeMeme()">
+           </label>
+            </div>
+        </p>
+        <p>
+            <div id="topText">
+           <label for="">Top Text:
+            <input type="text" id="userTopText" placeholder="Top text" oninput="makeMeme()">
+           </label>
+            </div>
+        </p>
+        <p>
+            <div id="bottomText">
+           <label for="">Bottom Text:
+            <input type="text" id="userBottomText" placeholder="Bottom text" oninput="makeMeme()">
+           </label>
+            </div>
+        </p>
+        <p>
+            <div id="btn">
+                <input type="submit" id="submitBtn">
+            </div>
+        </p>
+        
+
+    </form>
+
+    <section id="results">
+        <div id="memeTopText">Top text here</div>
+        <div id="memeBottomText">Bottom text here</div>
+        <div id="memeImg"><img src="" height="300"
+            width="300"></div>
+    </section>
+
+
+    
+    <script src="finalmeme.js"></script>
+</body>
+</html>

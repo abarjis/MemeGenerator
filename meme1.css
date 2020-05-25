@@ -1,0 +1,42 @@
+#memeTopText {
+    position: absolute;
+    top: 280px; 
+    left: 600px;
+    background-color: transparent;
+    font-family: "Impact";
+    color: white;
+    text-shadow: black 0px 0px 10px;
+
+}
+
+#memeBottomText {
+    position: absolute;
+    background-color: transparent;
+    font-family: "Impact";
+    color: white;
+    text-shadow: black 0px 0px 10px;
+    bottom: 90px;
+    left: 600px;
+
+}
+
+
+body {
+    text-align: center;
+    background-color: teal;    
+}
+
+form {
+    display: inline-block;
+}
+
+#submitBtn {
+    text-align: center;
+}
+
+#topText {
+    text-align: left;
+}
+#bottomText {
+    text-align: left;
+}
